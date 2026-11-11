@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+/*
+
+    #000022 azul bem escuro
+    #001242 azul escuro
+    #0094C6 azul meio claro
+    #005E7C azul acinzentado
+    #040F16 preto
+
+
+*/
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+body {
+    background-color: #cce9f3 ;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to top, #000022, #001242  );
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.473);
+}
+
+header ul {
+    
+
+    list-style: none;
+    
+}
+
+header > h1{
+    margin: auto;
+    margin-bottom:10px ;
+    color: white;
+    text-align: center;
+}
+
+menu > ul > li > a {
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 60vw;
+    color: white;
+    border: 4px solid #005E7C;
+    border-radius: 20px;
+    background-color: #0094C6;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+menu > ul > li > a:hover{
+    background-color:#001242 ;
+}
+    
+main {
+    margin: auto;
+    
+    
+}
+
+/*Sobre o curso*/
+
+section#sobre{
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+    background-color: #a2e6fdab;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    border-radius: 0px 0px 10px 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
+}
+
+section#sobre > h2{
+    border-left: 2px solid #0094C6;
+    background-color:#0094C6 ;
+    width: 180px;
+    padding-left: 7px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+section#sobre > p{
+    border-left: 2px solid #0094C6;
+    padding-left: 7px;
+    margin-top: 7px;
+}
+
+#bordap{
+    border-bottom: 2px solid #0094C6;
+}
+
+/*Configurações padrão cards*/
+
+section.card{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 45vw;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.493);
+    background-color: #a2e6fdab;
+}
+
+div#descricao{
+
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+div#descricao > h3{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.452);
+}
+
+div#descricao > p{
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
+}
+
+/*Configurações card1*/
+
+section.card > div#img1 {
+   
+    display: block;
+    background: white url(../imagens/pexels-realtoughcandy-11035371.jpg) no-repeat;background-size: cover;
+    height: 50%; 
+    border-radius: 15px 15px 20px 20px; 
+
+}
+
+span.html{
+    color: orangered;
+    background-color: rgba(252, 146, 108, 0.363);
+}
+
+div.iconhtml{
+    margin-top: 40px;
+}
+
+/*Configurações card2*/
+
+section.card > div#img2{
+    display: block;
+    background: url(../imagens/pexels-realtoughcandy-11035386.jpg) no-repeat;
+    background-size: cover;
+    height: 50%;
+    border-radius: 15px 15px 20px 20px;
+}
+
+span.css{
+    background-color: rgba(51, 115, 252, 0.466);
+    color: blue;
+}
+
+div.iconcss{
+ margin-top: 47px;
+}
+
+/*Configurações card3*/
+
+
+div#img3{
+    background: url(../imagens/pexels-picjumbo-com-55570-196645.jpg) no-repeat;
+    background-size: cover;
+    height: 50%;
+    border-radius: 15px 15px 20px 20px;
+}
+
+div.icongit {
+    margin-top: 30px;
+}

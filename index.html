@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>HTML e CSS</title>
+        <link rel="stylesheet" href="estilos/style.css" type="text/css" media="all" />        
+        <script src="https://kit.fontawesome.com/686acfef40.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1>HTML e CSS Curso em Vídeo</h1>
+            <menu>
+                
+                    <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#programacao">Programação</a></li>
+                    <li><a href="#inscricao">Inscrição</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    </ul>
+                    
+                
+            </menu>
+        </header>
+        <main>
+            <section id="sobre">
+                <h2>Sobre o Curso:</h2>
+                <p>O Curso de HTML5 e CSS3 do Curso em Vídeo é gratuito e ensina a criar sites do zero. As aulas são do professor Gustavo Guanabara e estão disponíveis no YouTube.</p>
+                
+                <p>
+                    O curso tem cinco módulos, com cerca de quarenta aulas cada, somando mais de 200 aulas.
+                    Além dos vídeos, há exercícios, desafios e material de apoio em PDF para você
+                    praticar.
+                </p>
+                
+                <p id="bordap">
+                    Quem conclui os módulos pelo site oficial do Curso em Vídeo pode receber certificados. É um curso pensado para quem está começando e quer aprender com calma.    
+                </p>
+            </section>
+            <section id="programacao">
+                <h2>Programação:</h2>
+                <section class="card">
+                    <div id="img1">
+
+                    </div>
+                    <div id="descricao">
+                        <h3><span class="html">HTML</span>: A estrutura</h3>
+                        <p>
+                            Aprenda a montar a base de uma página com títulos, parágrafos, links, imagens, listas e formulários.
+                        </p>
+                        <div class="iconhtml">
+                            <i class="fa-brands fa-html5 fa-2xl" style="color: rgb(254, 98, 8);"></i>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div id="img2">
+
+                    </div>
+                    <div id="descricao">
+                        <h3><span class="css">CSS</span>: O visual</h3>
+                        <p>Dê vida ao site com cores, fontes, fundos, espaçamentos e um layout organizado.</p>
+                    </div>
+                    <div class="iconcss">
+                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: rgb(5, 37, 204);"></i>
+                    </div>
+                </section>
+                <section class="card">
+                    <div id="img3">
+
+                    </div>
+                    <div id="descricao">
+                        <h3>Prática e Publicação:</h3>
+                        <p>
+                            Fixe o conteúdo com exercícios, desafios e projetos, e veja como colocar o seu site no ar.
+                        </p>
+                    </div>
+                    <div class="icongit">
+                        <i class="fa-brands fa-github fa-2xl" style="color: rgb(0, 0, 0);"></i>
+                    </div>
+                </section>
+            </section>
+            <section id="inscricao">
+                <h2>Inscrição:</h2>
+                <form method="post" accept-charset="utf-8" autocomplete="on">
+                    <label for="inome">Nome Completo: </label>
+                    <input type="text" name="nome" id="inome" value="" placeholder="Digite seu nome..." required=""/>
+                    <br/>
+                    <label for="iemail">Seu email: </label>
+                    <input type="email" name="email" id="iemail" value="" placeholder="Digite seu email..." required="" />
+                    <br/>
+                    <label for="inivel">Qual seu nível em programação?</label>
+                    <select name="nivel" id="inivel">
+                        <option value="">Nunca Progamei</option>
+                        <option value="">Já tive contato</option>
+                        <option value="">Sou um pouco avançado</option>
+                    </select>
+                    <br/>
+                    <label for="iaprender">Oque você mais quer aprender?(opcional)</label><br/>
+                    <textarea name="aprender" id="iaprender" rows="8" cols="40"></textarea>
+                    <br/>
+                    
+                    <input type="checkbox" name="dicas" id="idicas"/>
+                    <label for="idicas">Quero começar a receber dicas de estudo pelo e-mail</label>
+                    <br />
+                    <input type="submit" name="" id="" value="Quero Começar!" />
+                </form>
+            </section>
+            <section id="contato">
+                <ul>
+                    <li><a href="">Clique aqui para ter acesso ao YouTube do Curso</a></li>
+                    <li><a href="">Clique aqui para seguir Gustavo Guanabara no Instgram</a></li>
+                    <li><a href="">Clique aqui para seguir o GUstavo Guanabara no X(Antigo twitter)</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Site feito por <a href="">Carlos Eduardo</a></p>
+            <p>site criado em fins educacionais e práticos, o formulário não armazena dados</p>
+        </footer>
+    </body>
+</html>
